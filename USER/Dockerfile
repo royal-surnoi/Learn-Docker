@@ -2,7 +2,7 @@ FROM almalinux:8
 
 RUN yum install nginx -y 
 
-RUN useradd royal
+RUN adduser royal
 USER royal 
 
-CMD ["nginx","-g","daemon off;"]
+RUN sleep 100

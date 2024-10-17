@@ -8,7 +8,7 @@ RUN adduser $username
 USER $username 
 
 WORKDIR /tmp
-
+ENV NAME=$username
  
 
 CMD ["sleep", "100"]

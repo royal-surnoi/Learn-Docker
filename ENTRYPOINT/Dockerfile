@@ -3,4 +3,4 @@ FROM almalinux:8
 # run like : 
 # docker run entrypoint:v1 
 # docker run entrypoint:v1 ping facebook.com
-ENTRYPOINT["ping","google.com"] 
+ENTRYPOINT ["ping","google.com"] 

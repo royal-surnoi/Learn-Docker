@@ -3,7 +3,7 @@ RUN yum install nginx -y
 
 RUN rm /usr/share/nginx/html/index.html
 ADD index.html /usr/share/nginx/html/
-ADD https://file-examples.com/wp-content/storage/2017/10/file-sample_150kB.pdf /tmp/
+ADD https://raw.githubusercontent.com/daws-76s/notes/master/session-01.txt /tmp/
 
 ADD dwsample1-zip.zip /tmp/
 
